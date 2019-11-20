@@ -1,0 +1,13 @@
+body{
+    background-color: powderblue;
+} 
+
+h1, h3{
+    color: rgb(170, 134, 142);
+}
+
+hr{
+    background-color: red;
+    border-style: dotted;
+    height: 2px; width: 90%;
+}
