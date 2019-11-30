@@ -1,6 +1,6 @@
 body{
     color: yellow;
-    margin: 0;
+    margin: 10px;
     text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
 }
@@ -10,6 +10,17 @@ body{
     background-color: aqua;
     position: relative;
     padding-top: 100px;
+}
+
+a{
+    color: greenyellow;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: pink;
 }
 
 hr{
@@ -54,10 +65,12 @@ h3{
 
 .bottom-container{
     background-color: aqua;  
+    padding: 50px 0 20px;
 }
 
 .contact-me{
     background-color: hotpink; 
+    margin: 0 auto 10px auto;
 }
 
 .top-cloud{
@@ -83,8 +96,8 @@ h3{
 
 .btn{
     color: green;
-    font-size: 20px;
-padding: 3px;
+    font-size: 18px;
+padding: 2px;
 text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
 -webkit-border-radius: 18px;
 -moz-border-radius: 18px;
@@ -98,5 +111,14 @@ background: linear-gradient(0deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
 -webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
 box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+}
 
+.btn:hover{
+    color: blue;
+}
+
+.copyright{
+    color: indianred;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
