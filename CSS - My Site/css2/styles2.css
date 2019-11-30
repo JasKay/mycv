@@ -1,17 +1,23 @@
 body{
-    color: #40514E;
+    color: yellow;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
 .top-container{
-    color: green;
+    color: yellow;
     background-color: aqua;
     position: relative;
     padding-top: 100px;
 }
 
+hr{
+    border: dotted purple 6px;
+    border-bottom: none;
+    width: 6%;
+    margin: auto;
+}
 h1{
      color: red;
     margin-top: 0;
@@ -38,18 +44,20 @@ h3{
 
 .intro{
     width: 30%;
-    margin: auto;
+    margin: 5px auto;
 }
 
 .middle-container{
-    color: rgb(24, 18, 18);
-    background-color: pink;
-    margin: 100px 0;
+    background-color: hotpink;
+    margin: 10px 0;
 }
 
 .bottom-container{
-    color: yellow;
-    
+    background-color: aqua;  
+}
+
+.contact-me{
+    background-color: hotpink; 
 }
 
 .top-cloud{
@@ -70,5 +78,25 @@ h3{
 
 .skill-row{
     width: 50%;
-    margin: 100px auto 100px auto;
+    margin: 10px auto 10px auto;
+}
+
+.btn{
+    color: green;
+    font-size: 20px;
+padding: 3px;
+text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+-webkit-border-radius: 18px;
+-moz-border-radius: 18px;
+border-radius: 18px;
+background: purple;
+background: -moz-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+background: -webkit-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+background: -o-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+background: -ms-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+background: linear-gradient(0deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+
 }
