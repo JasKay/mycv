@@ -2,36 +2,49 @@ body{
    text-align: center;
 }
 
+/*Upper part*/
 .upper-part{
     text-align: right;
     vertical-align: bottom;
 }
 
-/*Footer*/
-.footer{
-    background-color: blue ;
-}
-.footer :hover{
-    color: black underline;
-    background-color: black underline;
+.nabar-nav {
+    text-align: right;
+    position: absolute;
 }
 
-.navbar-brand{
-    font-size: 20px;
+.right{
+    float:right;
 }
 
-/*Google Name*/
-.google-name, .middle-buttons{
+/*Middle Part*/
+.middle-section{
     text-align: center;
 }
 
+.title-image{
+    text-align: center;
+}
+/*Search box*/
 .wrapper{
     text-align: center;
-    width: 100%;
     padding: 20px 0 30px;
     margin: 20px;
 }
 
-.search-box{
-    box-sizing: border-box;
+.search-box input{
+    width: 400px;
+    border-radius: 10%;
+}
+
+
+/*Footer*/
+
+
+#left-links{
+    float: left;
+}
+
+#right-links{
+    float: right;
 }

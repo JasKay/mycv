@@ -5,7 +5,7 @@
     <title>Gooogle</title>
     
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/kay_picture.png">
+    <link rel="icon" href="gooogle_logo.png">
   
     <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -26,33 +26,96 @@
 
 
   <body>
-
+        <!--Top of the page-->
     <div class="upper-part">
-      <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"><h6>About</h6></a>
-      <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US"><h6>Store</h6></a>
-      <a href="#"><h6>Gmail</h6></a>
-      <a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl"><h6>Images</h6></a>
-    </div>
+      <div class="navbar-nav-scroll">
+          <ul class="navbar-nav bd-navbar-nav flex-row" style="text-align: left;">
+            <li class="nav-item">
+                <a class="nav-link" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"><h6>About</h6></a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US"><h6>Store</h6></a>
+              </li>
+              
+            <li class="nav-item">
+                <a class="nav-link" href="#"><h6>Gmail</h6></a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl"><h6>Images</h6></a>
+              </li>    
+          </ul>
 
- 
+          
+          <ul id="right-links" class="navbar-nav flex-row" style="text-align: right;">
+              <li class="nav-item">
+                  <a class="nav-link" href="https://themes.getbootstrap.com/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Themes');" target="_blank" rel="noopener">Themes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://expo.getbootstrap.com/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Expo');" target="_blank" rel="noopener">Expo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://blog.getbootstrap.com/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Blog');" target="_blank" rel="noopener">Blog</a>
+                </li>
+              
+            </ul>
+        </div>    
+      </div>
      
-  
+      <!--Middle of the page-->
+  <div class= "middle-section">
+    <!--Google's logo-->
     <div class="google-name">
       <img class="title-image" src="gooogle_logo.png" alt="google-logo">
     </div>
 
-
+    <!--Search box-->
     <div class="wrapper">
       <div class="search-box">
-        <input type="text" placeholder="what are you searching for?">
+        <input type="text" autofocus placeholder="what are you searching for?">
       </div>
     </div>
 
+    <!--Search buttons-->
     <div class="middle-buttons">
       <button class="google-search-button" type="button">Google Search</button>
       <button class="google-search" type="button">I'm Feeling Lucky</button>
     </div>
+  </div>
 
+    <!--Bottom of the page-->
+   <div class="bottom-part">
+      <div class="navbar-nav-scroll">
+          <ul id= "left-link" class="navbar-nav bd-navbar-nav flex-row" style="text-align: left;">
+            <li class="nav-item">
+                <a class="nav-link" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"><h6>Advertising</h6></a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US"><h6>Business</h6></a>
+              </li>
+              
+            <li class="nav-item">
+                <a class="nav-link" href="#"><h6>How Search works</h6></a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl"><h6>Images</h6></a>
+              </li>    
+          </ul>
+
+          
+          <ul id="right-links" class="navbar-nav flex-row" style="text-align: right;">
+              <li class="nav-item">
+                  <a class="nav-link" href="https://themes.getbootstrap.com/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Themes');" target="_blank" rel="noopener">Privacy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://expo.getbootstrap.com/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Expo');" target="_blank" rel="noopener">Terms</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://blog.getbootstrap.com/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Blog');" target="_blank" rel="noopener">Service</a>
+                </li>
+              
+            </ul>
+        </div>    
+      </div>
     
   
   </body>
