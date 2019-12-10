@@ -1,0 +1,104 @@
+.front-picture, .middle-section{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(225, 151, 24);
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+ }
+ 
+ .menu-list{
+   text-align: center;
+   left: 25%;
+ }
+ 
+ p{
+    font-family: 'Sacramento', cursive;
+     color: white;
+     font-size: 18px;
+     line-height: 2;
+ }
+ 
+ h1{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: chocolate;
+ }
+ 
+
+ 
+ .campuses{
+    align-content: center;
+ }
+ 
+ 
+ .menu-list{
+    float: center;
+ }
+ 
+ li {
+    float: center;
+  }
+  
+  li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+ 
+ 
+  hr{
+     color: red;
+     height: 2px;
+  }
+ 
+  
+ .morgan-bio, .montgo-bio, .scad-bio, .lynn-bio, .rutgers-bio, .calif-bio, .virginia-bio, .nyu-bio {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    left: 25%;
+  }
+  
+  .morgan-image, .montgo-image, .scad-image, .lynn-image, .rutgers-image, .calif-image, .virginia-image, .nyu-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .morgan-info, .montgo-info, .scad-info, .lynn-info, .rutgers-info, .calif-info, .virginia-info, .nyu-info {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .morgan-bio:hover .morgan-image, .montgo-bio:hover .montgo-image, .scad-bio:hover .scad-image, .lynn-bio:hover .lynn-image, .rutgers-bio:hover .rutgers-image, .calif-bio:hover .calif-image, .virginia-bio:hover .virginia-image, .nyu-bio:hover .nyu-image {
+    opacity: 0.3;
+  }
+  
+  .morgan-bio:hover .morgan-info, .montgo-bio:hover .montgo-info,  .scad-bio:hover .scad-info, .lynn-bio:hover .lynn-info , .rutgers-bio:hover .rutgers-info, .calif-bio:hover .calif-info ,  .virginia-bio:hover .virginia-info, .nyu-bio:hover .nyu-info  {
+    opacity: 1;
+  }
+  
+  .morgan-info-text, .montgo-info-text, .scad-info-text, .lynn-info-text, .rutgers-info-text,  .calif-info-text, .virginia-info-text,  .nyu-info-text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
