@@ -43,6 +43,13 @@ body{
     margin: 2px;
 }
 
+.credit-scoring{
+    height: 300px;
+    text-align: center;
+    background-color: #20800d;
+    padding: 20px 100px;
+}
+
 /* Containers */
 .container-fluid{
     padding: 7% 15%;
