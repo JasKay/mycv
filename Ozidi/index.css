@@ -50,6 +50,12 @@ body{
     padding: 20px 100px;
 }
 
+.video-message{
+    background-color: #c3fdb8;
+    text-align: center;
+    padding: 20px 100px;
+}
+
 /* Containers */
 .container-fluid{
     padding: 7% 15%;
