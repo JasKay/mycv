@@ -64,3 +64,8 @@ body{
 .colored-section{
     height: 300px;
 }
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
