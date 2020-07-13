@@ -1,13 +1,13 @@
 # mycv
 CV
-<!-- <img src="https://raw.githubusercontent.com/adefemi171/adefemi171/master/DevOpsTalk.png" alt=""> -->
 
-<h2> Hello fellow human! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></h2>
 
-<img align='right' src="https://raw.githubusercontent.com/adefemi171/adefemi171/master/femiOctocat.png" width='200"'>
+<h2> Hi everyone <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></h2>
 
-[![Twitter Badge](https://img.shields.io/badge/-@daycrawller-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/daycrawller)](https://twitter.com/daycrawller) [![Linkedin Badge](https://img.shields.io/badge/-AdefemiMicheal-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/harshkumarkhatri/)](https://www.linkedin.com/in/afuwape-adefemi-micheal/) [![Medium Badge](https://img.shields.io/badge/-@adefemi171-03a57a?style=flat-square&labelColor=000000&logo=Medium&link=https://medium.com/@mailharshkhatri/)](https://medium.com/adefemi171)
-[![Gmail Badge](https://img.shields.io/badge/-adefemi171@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:adefemi171@gmail.com)](mailto:adefemi171@gmail.com)
+<img align='right' src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fjasanyakayode&psig=AOvVaw2H2v4MRGDRI3cTuU7ecc28&ust=1594768460129000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiGuM6ty-oCFQAAAAAdAAAAABAD" width='200"'>
+
+[![Twitter Badge](https://img.shields.io/badge/-@daycrawller-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/JasanyaKayode)](https://twitter.com/JasanyaKayode) [![Linkedin Badge](https://img.shields.io/badge/-KayJasanya-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/oluwakayode-jasanya/)](https://www.linkedin.com/in/oluwakayode-jasanya/) 
+[![Gmail Badge](https://img.shields.io/badge/-iamjasanyakay@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:iamjasanyakay@gmail.com)](mailto:iamjasanyakay@gmail.com)
 
 - Kay Jasanya🌟 here 👋💻 :man: from Lagos, Nigeria and currently studying Computer Science in University of Ibadan. I love networking and mentoring :8ball: :revolving_hearts:
 
